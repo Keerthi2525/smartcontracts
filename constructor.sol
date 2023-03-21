@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 contract demo{
     string public name;
 
-    constructor(string memory _name){ // it can displaces in deploy bar
+    constructor(string memory _name){ // it can displays in deploy bar
         name = _name;
 }  
     // constructor(){
